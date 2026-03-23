@@ -35,7 +35,7 @@ export const STRIPE_CONFIG = {
   
   // Return URL for redirect-based payments
   RETURN_URL: env.NODE_ENV === 'production' 
-    ? 'https://cool-machine.github.io/enamel_georgia/order-confirmation'
+    ? 'https://cool-machine.github.io/enamel-georgia-clean/order-confirmation'
     : 'http://localhost:3000/order-confirmation',
     
   // Webhook endpoint secret
